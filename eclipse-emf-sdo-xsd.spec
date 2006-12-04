@@ -1,11 +1,12 @@
-%define		module	emf-sdo
+%define		module		emf-sdo
+%define		_buildid	R200609210005
 Summary:	Eclipse Modeling Framework
 Name:		eclipse-%{module}
 Version:	2.2.1
 Release:	0.1
 License:	CPL
 Group:		Development/Tools
-Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/R200609210005/%{module}-SDK-%{version}.zip
+Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/%{_buildid}/%{module}-SDK-%{version}.zip
 # Source0-md5:	8dcd27a7dca1648c0da0c056c551f472
 #URL:		
 BuildRequires:	unzip
