@@ -12,7 +12,6 @@ Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/%{_bui
 #URL:		
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_eclipsedir	%{_libdir}/eclipse
