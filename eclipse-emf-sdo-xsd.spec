@@ -1,7 +1,7 @@
 %define		module		emf-sdo
 %define		_buildid	R200609210005
 Summary:	Eclipse Modeling Framework
-Summary(pl):	Eclipse Modeling Framework - szkielet do modelowania w Eclipse
+Summary(pl.UTF-8):   Eclipse Modeling Framework - szkielet do modelowania w Eclipse
 Name:		eclipse-%{module}
 Version:	2.2.1
 Release:	0.2
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Eclipse Modeling Framework (EMF).
 
-%description -l pl
+%description -l pl.UTF-8
 Eclipse Modeling Framework (EMF) - szkielet do modelowania w Eclipse.
 
 %prep
