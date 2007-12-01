@@ -1,20 +1,23 @@
-%define		module		emf-sdo
-%define		_buildid	R200609210005
+# TODO
+# - rename to eclipse-emf-sdo-xsd?
+# - build noarch
+%define		module	emf-sdo
+%define		buildid	R200706262000
 Summary:	Eclipse Modeling Framework
 Summary(pl.UTF-8):	Eclipse Modeling Framework - szkielet do modelowania w Eclipse
 Name:		eclipse-%{module}
-Version:	2.2.1
-Release:	0.2
+Version:	2.3.0
+Release:	0.1
 License:	EPL v1.0
 Group:		Development/Tools
-Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/%{_buildid}/%{module}-SDK-%{version}.zip
-# Source0-md5:	8dcd27a7dca1648c0da0c056c551f472
-#URL:		
+Source0:	http://archive.eclipse.org/modeling/emf/emf/downloads/drops/%{version}/%{buildid}/%{module}-xsd-SDK-%{version}.zip
+# Source0-md5:	95c3eed41fa88e18b998cf14d9a2a985
+URL:		http://www.eclipse.org/emf/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_eclipsedir	%{_libdir}/eclipse
+%define		_eclipsedir	%{_libdir}/eclipse
 
 %description
 Eclipse Modeling Framework (EMF).
