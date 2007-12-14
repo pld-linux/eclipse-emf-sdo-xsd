@@ -16,7 +16,6 @@ Requires:	eclipse >= 3.2
 Source0:	http://archive.eclipse.org/modeling/emf/emf/downloads/drops/%{version}/R%{buildid}/%{module}-SDK-%{version}.zip
 # Source0-md5:	95c3eed41fa88e18b998cf14d9a2a985
 Obsoletes:	eclipse-emf-sdo
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_eclipsedir	%{_libdir}/eclipse
