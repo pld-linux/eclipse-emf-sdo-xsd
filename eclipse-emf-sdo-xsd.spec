@@ -10,11 +10,11 @@ Version:	2.3.0
 Release:	1
 License:	EPL v1.0
 Group:		Development/Tools
+Source0:	http://archive.eclipse.org/modeling/emf/emf/downloads/drops/%{version}/R%{buildid}/%{module}-SDK-%{version}.zip
+# Source0-md5:	95c3eed41fa88e18b998cf14d9a2a985
 URL:		http://www.eclipse.org/emf/
 BuildRequires:	unzip
 Requires:	eclipse >= 3.2
-Source0:	http://archive.eclipse.org/modeling/emf/emf/downloads/drops/%{version}/R%{buildid}/%{module}-SDK-%{version}.zip
-# Source0-md5:	95c3eed41fa88e18b998cf14d9a2a985
 Obsoletes:	eclipse-emf-sdo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
