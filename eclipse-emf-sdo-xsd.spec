@@ -1,5 +1,4 @@
 %define		module	emf-sdo-xsd
-%include	/usr/lib/rpm/macros.java
 Summary:	Eclipse Modeling Framework
 Summary(pl.UTF-8):	Eclipse Modeling Framework - szkielet do modelowania w Eclipse
 Name:		eclipse-%{module}
